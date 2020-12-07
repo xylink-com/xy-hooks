@@ -5,6 +5,7 @@ export default {
     exclude: [],
   },
   base: "/xy-hooks",
+  publicPath: "/xy-hooks/",
   outputPath: "/docs",
   mode: 'site',
   title: 'xy-hooks',
