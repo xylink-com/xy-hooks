@@ -41,6 +41,10 @@ Open your browser and visit http://127.0.0.1:8000 , see more at Development.
 
 Feel relax to pull request if you have more ideas: [Pull request](https://github.com/xylink-com/xy-hooks/pulls)
 
+## Quick start
+
+You can copy the example directory to start your development quickly.Remember to register your hook in `index.ts` under src directory.
+
 ## 🤡 Demo & Doc
 
 1. Write demo in the demo directory of your component.

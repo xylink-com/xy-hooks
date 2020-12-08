@@ -23,7 +23,7 @@ export default () => {
           border: 'solid 1px #000',
           overflow: 'scroll',
           whiteSpace: 'nowrap',
-          fontSize: '18px',
+          fontSize: '32px',
         }}
         ref={ref}
       >

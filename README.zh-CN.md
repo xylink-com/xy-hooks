@@ -42,7 +42,7 @@ $ npm start
 
 ## 快速开始
 
-你可以复制 `example 文件夹` 快速开发您的 hook 应用。
+你可以复制 `example 文件夹` 快速开发您的 hook 应用。然后在 `index.ts` 中注册您的 hook。
 
 ## 🤡  演示与文档
 

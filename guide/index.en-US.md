@@ -54,6 +54,7 @@ Feel relax to pull request if you have more ideas: [Pull request](https://github
 ## Quick start
 
 You can copy the example directory to start your development quickly.
+Remember to register your hook in `index.ts` under src directory.
 
 ## 🤡 Demo & Doc
 

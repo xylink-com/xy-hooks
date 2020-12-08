@@ -22,13 +22,15 @@ legacy: /example/example
 
 ### Params
 
-| Property | Description | Type | Default |
+| 参数 | 描述 | 类型 | 默认值 |
 | -------- | ----------- | ---- | ------- |
 
 ### Result
 
-| Property | Description | Type |
+| 参数 | 描述 | 类型 |
 | -------- | ----------- | ---- |
+
+### Types
 
 ### Workflow
 
