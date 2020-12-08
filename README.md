@@ -4,12 +4,10 @@ English | [简体中文](./README.zh-CN.md)
 
 React Hooks Library.
 
-[![NPM version][image-1]][1] [![NPM downloads][image-2]][2]
-
 ## 📚 Document
 
-<!-- - [English](https://ahooks.js.org/)
-- [中文](https://ahooks.js.org/zh-CN/) -->
+- [English](https://xylink-com.github.io/xy-hooks/)
+- [中文](https://xylink-com.github.io/xy-hooks/zh-CN)
 
 ## ✨ Features
 
@@ -27,63 +25,38 @@ npm i xy-hooks --save
 ## 🔨 Usage
 
 ```
-import { useRequest } from 'xy-hooks';
+import { useRafInterval } from 'xy-hooks';
 ```
-
-## Core Team
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a target="_blank" href="https://github.com/alibaba/ice">
-          <img
-            width="32"
-            src="https://img.alicdn.com/tfs/TB1Jd.tb79l0K4jSZFKXXXFjpXa-482-264.png"
-          />
-          <br>
-          <strong>ice</strong>
-        </a>
-      </td>
-      <td align="center">
-        <a target="_blank" href="https://github.com/umijs/umi">
-          <img
-            width="32"
-            style="vertical-align: -0.32em; margin-right: 8px;"
-            src="https://img.alicdn.com/tfs/TB1fhqaLAT2gK0jSZFkXXcIQFXa-132-130.png"
-          />
-          <br>
-          <strong>umi</strong>
-        </a>
-      </td>
-       <td align="center">
-        <a target="_blank" href="https://www.alisports.com/">
-          <img
-            width="32"
-            style="vertical-align: -0.32em; margin-right: 8px;"
-            src="https://gw.alicdn.com/tfs/TB13XKjLuL2gK0jSZFmXXc7iXXa-205-59.png"
-          />
-          <br>
-          <strong>Alisports</strong>
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 ## 🤝 Contributing
 
 ```
-$ git clone git@github.com:alibaba/hooks.git
-$ cd hooks
+$ git clone git@github.com:xylink-com/xy-hooks.git
+$ cd xy-hooks
 $ npm run init
 $ npm start
 ```
 
-Open your browser and visit http://127.0.0.1:8001 , see more at Development.
+Open your browser and visit http://127.0.0.1:8000 , see more at Development.
+
+Feel relax to pull request if you have more ideas: [Pull request](https://github.com/xylink-com/xy-hooks/pulls)
+
+## 🤡 Demo & Doc
+
+1. Write demo in the demo directory of your component.
+2. Write docs in index.zh-CN.md for Chinese and index.en-US.md for English.
+3. Embed your demo in your docs via `code` tag, like this:
+```ts
+<code src="./demo/basicScroll.tsx" />
+```
+You can import many demos for different usage.
+
+4. Build docs with command `yarn build:doc`, the docs generated will de deployed in static Github Pages after your code be pushed to master.
 
 ## 👥 Discuss
 
+Welcome to issues: [Push issues](https://github.com/xylink-com/xy-hooks/issues)
+
 ## ✅ License
 
-[MIT](https://github.com/alibaba/hooks/blob/master/LICENSE)
+[MIT](https://github.com/xylink-com/xy-hooks/blob/master/LICENSE)
