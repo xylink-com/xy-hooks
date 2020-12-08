@@ -8,13 +8,16 @@
   "scripts": {
     "init": "rm -rf node_modules && yarn && yarn run clean && yarn run bootstrap && yarn run build",
     "start": "yarn run dev",
+    "s": "yarn run dev",
     "dev": "dumi dev",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
     "build": "lerna run build",
+    "b": "lerna run build",
     "test": "jest",
     "lint": "eslint --ignore-pattern **/__tests__/* --ignore-pattern **/demo/* \"packages/*/src/**/*.{ts,tsx}\"",
     "build:doc": "dumi build",
+    "bd": "dumi build",
     "pub": "lerna publish"
   },
   "husky": {
