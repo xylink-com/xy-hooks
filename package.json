@@ -18,7 +18,8 @@
     "lint": "eslint --ignore-pattern **/__tests__/* --ignore-pattern **/demo/* \"packages/*/src/**/*.{ts,tsx}\"",
     "build:doc": "dumi build",
     "bd": "dumi build",
-    "pub": "lerna publish"
+    "pub": "lerna publish",
+    "go": "yarn b && yarn bd"
   },
   "husky": {
     "hooks": {

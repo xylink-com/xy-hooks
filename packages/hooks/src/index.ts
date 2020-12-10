@@ -5,6 +5,7 @@ import useAnimate, { Tween } from './useAnimate';
 import useLazyLoad from './useLazyLoad';
 import useCancellablePromises, { cancellablePromise } from './useCancellablePromises';
 import useClickPreventionOnDoubleClick from './useClickPreventionOnDoubleClick';
+import useDebounceFn from './useDebounceFn';
 
 export {
   useScrollPlus,
@@ -16,4 +17,5 @@ export {
   cancellablePromise,
   useCancellablePromises,
   useClickPreventionOnDoubleClick,
+  useDebounceFn,
 };
