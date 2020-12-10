@@ -5,22 +5,29 @@
  * title.zh-CN: 通常情况
  * desc.zh-CN: 如果在同一元素上同时监听 onClick 和 onDoubleClick 时间，将会出现的情况。
  */
-import React from 'react';
+import React, { useState } from 'react';
 
 export default () => {
-  const ClickableBox = ({ onClick, onDoubleClick }) => {
-
-    return (
-      <button onClick={onClick} onDoubleClick={onDoubleClick}>
-        Click or double click
-      </button>
-    );
-  };
+  const [single, setSingle] = useState(0);
+  const [double, setDouble] = useState(0);
 
   return (
-    <ClickableBox
-      onClick={() => console.log('on click')}
-      onDoubleClick={() => console.log('on double click')}
-    />
+    <>
+      <p>
+        Single: {single} | Double: {double}
+      </p>
+      <button
+        onClick={() => {
+          console.log('on click');
+          setSingle(single + 1);
+        }}
+        onDoubleClick={() => {
+          console.log('on double click');
+          setDouble(double + 1);
+        }}
+      >
+        Click or Double Click
+      </button>
+    </>
   );
 };
